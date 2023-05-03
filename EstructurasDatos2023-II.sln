@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstructurasDatos2023-II", "EstructurasDatos2023-II.csproj", "{48A0B195-2FB3-4313-99C0-63DAC01AECD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listas-2023-II", "..\Listas-2023-II\Listas-2023-II.csproj", "{028E36D0-34C5-46E8-9199-BF658C46FC1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{48A0B195-2FB3-4313-99C0-63DAC01AECD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48A0B195-2FB3-4313-99C0-63DAC01AECD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48A0B195-2FB3-4313-99C0-63DAC01AECD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{028E36D0-34C5-46E8-9199-BF658C46FC1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{028E36D0-34C5-46E8-9199-BF658C46FC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{028E36D0-34C5-46E8-9199-BF658C46FC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{028E36D0-34C5-46E8-9199-BF658C46FC1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -22,9 +22,13 @@ namespace EstructurasDatos2023_II
 
             for( int i=0; i<miproveedor.Length;i++)
             {
-                Console.WriteLine("Proveedor: {0} - {1} \n Colonia: {2}",i, miproveedor[i].nombre, miproveedor[i].direccion.Colonia);
+                Console.WriteLine("Proveedor: {0} - {1} \n Colonia: {2} \n  Visita: {3}",i, miproveedor[i].nombre, miproveedor[i].direccion.Colonia,Dias.Lunes+i);
                 
             }
+
+
+
+
 
 
            /* miproveedor.nombre = "Pepito";
@@ -38,6 +42,15 @@ namespace EstructurasDatos2023_II
              
 
         }
+    }
+
+    public enum Dias
+    {
+        Lunes,
+        Martes,
+        Miercoles,
+        Jueves,
+        Viernes
     }
 
     public struct Proveedor
