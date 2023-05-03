@@ -14,11 +14,16 @@ namespace EstructurasDatos2023_II
                 miproveedor[i].nombre = Console.ReadLine();
                 Console.WriteLine(" Ingresa el Teléfono: ");
                 miproveedor[i].telefono = Console.ReadLine();
+                Console.WriteLine("Ingresa el nombre de la colonia");
+                miproveedor[i].direccion.Colonia=Console.ReadLine();
+                Console.WriteLine("Ingresa el número interior");
+                miproveedor[i].direccion.numInterior =short.Parse(Console.ReadLine());
             }
 
             for( int i=0; i<miproveedor.Length;i++)
             {
-                Console.WriteLine("Proveedor: {0} - {1}",i, miproveedor[i].nombre);
+                Console.WriteLine("Proveedor: {0} - {1} \n Colonia: {2}",i, miproveedor[i].nombre, miproveedor[i].direccion.Colonia);
+                
             }
 
 
@@ -39,8 +44,13 @@ namespace EstructurasDatos2023_II
     {
         public string nombre;
         public string telefono;
+        public Direccion direccion;
+    }
 
-
+    public struct Direccion
+    {
+        public string Colonia;
+        public short numInterior;
     }
 
 }
